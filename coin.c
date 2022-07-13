@@ -4,7 +4,6 @@
 #include<time.h>
 int main()
 {
-
   int coin[3];
   int h=0;
   int t=0;
@@ -28,6 +27,14 @@ int main()
     }
   }
   printf("Heads: %d, Tails: %d\n",h,t);
+  if(h>t)
+  {
+    printf("You won!\n");
+  }
+  else
+  {
+    printf("You lost!\n");
+  }
  
 
 }
