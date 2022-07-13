@@ -31,14 +31,6 @@ int main()
     }
   }
   printf("Heads: %d, Tails: %d\n",h,t);
- if(h>t)
-  {
-    printf("%s won!\n",str);
-  }
-  else
-  {
-    printf("%s lost!\n",str);
-  }
  
 
 }
